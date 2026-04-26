@@ -5,9 +5,9 @@
 
 adb root
 wait ${!}
-adb shell pm enable org.lineageos.setupwizard || true
+adb shell pm enable com.android.setupwizard || true
 wait ${!}
-adb shell pm enable org.lineageos.setupwizard/.SetupWizardActivity || true
+adb shell pm enable com.android.setupwizard/org.lineageos.setupwizard.SetupWizardActivity || true
 wait ${!}
 adb shell pm enable com.google.android.setupwizard || true
 wait ${!}

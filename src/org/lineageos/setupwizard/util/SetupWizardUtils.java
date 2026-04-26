@@ -46,8 +46,8 @@ import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
-import lineageos.hardware.LineageHardwareManager;
-import lineageos.providers.LineageSettings;
+import strixos.hardware.LineageHardwareManager;
+import strixos.providers.LineageSettings;
 
 import org.lineageos.setupwizard.BaseSetupWizardActivity;
 import org.lineageos.setupwizard.SetupWizardApp;
@@ -62,7 +62,7 @@ public class SetupWizardUtils {
     private static final String GMS_PACKAGE = "com.google.android.gms";
     private static final String GMS_SUW_PACKAGE = "com.google.android.setupwizard";
     private static final String GMS_TV_SUW_PACKAGE = "com.google.android.tungsten.setupwraith";
-    private static final String UPDATER_PACKAGE = "org.lineageos.updater";
+    private static final String UPDATER_PACKAGE = "com.android.updater";
 
     private static final String UPDATE_RECOVERY_EXEC = "/vendor/bin/install-recovery.sh";
     private static final String CONFIG_HIDE_RECOVERY_UPDATE = "config_hideRecoveryUpdate";

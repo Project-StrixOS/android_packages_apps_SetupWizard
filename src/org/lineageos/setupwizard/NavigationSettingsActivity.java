@@ -23,7 +23,7 @@ import android.widget.RadioGroup;
 
 import com.airbnb.lottie.LottieAnimationView;
 
-import lineageos.providers.LineageSettings;
+import strixos.providers.LineageSettings;
 
 import org.lineageos.setupwizard.util.SetupWizardUtils;
 
