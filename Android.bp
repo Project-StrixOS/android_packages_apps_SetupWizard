@@ -4,14 +4,14 @@
 //
 
 android_app {
-    name: "LineageSetupWizard",
+    name: "LosSetupWizard",
 
     srcs: ["src/**/*.java"],
 
     certificate: "platform",
     privileged: true,
-    privapp_allowlist: "org.lineageos.setupwizard.xml",
     system_ext_specific: true,
+    privapp_allowlist: "org.los.setupwizard.xml",
     platform_apis: true,
 
     overrides: ["Provision"],
@@ -30,4 +30,8 @@ android_app {
     ],
 
     libs: ["telephony-common"],
+
+    aaptflags: [
+        "--rename-manifest-package", "com.android.setupwizard",
+    ],
 }

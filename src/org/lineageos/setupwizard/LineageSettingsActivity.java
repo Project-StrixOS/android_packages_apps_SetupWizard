@@ -18,8 +18,8 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import lineageos.hardware.LineageHardwareManager;
-import lineageos.providers.LineageSettings;
+import strixos.hardware.LineageHardwareManager;
+import strixos.providers.LineageSettings;
 
 public class LineageSettingsActivity extends BaseSetupWizardActivity {
 
