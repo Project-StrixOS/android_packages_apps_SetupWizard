@@ -10,8 +10,8 @@ import android.content.Context
 import android.os.Bundle
 import android.os.UserHandle
 import android.text.TextUtils
-import lineageos.hardware.LineageHardwareManager
-import lineageos.providers.LineageSettings
+import strixos.hardware.LineageHardwareManager
+import strixos.providers.LineageSettings
 import org.lineageos.setupwizard.DISABLE_NAV_KEYS
 import org.lineageos.setupwizard.KEY_SEND_METRICS
 import org.lineageos.setupwizard.R

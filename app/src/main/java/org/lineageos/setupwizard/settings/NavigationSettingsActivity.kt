@@ -14,7 +14,7 @@ import com.airbnb.lottie.LottieAnimationView
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.button.MaterialButtonToggleGroup
 import com.google.android.material.materialswitch.MaterialSwitch
-import lineageos.providers.LineageSettings
+import strixos.providers.LineageSettings
 import org.lineageos.internal.util.DeviceKeysConstants.KEY_MASK_APP_SWITCH
 import org.lineageos.setupwizard.DISABLE_NAV_KEYS
 import org.lineageos.setupwizard.NAVIGATION_OPTION_KEY

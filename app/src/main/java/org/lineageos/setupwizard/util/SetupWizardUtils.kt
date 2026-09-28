@@ -34,8 +34,8 @@ import android.telephony.TelephonyManager.PHONE_TYPE_GSM
 import android.util.Log
 import com.google.android.setupcompat.util.ResultCodes.RESULT_SKIP
 import java.io.File
-import lineageos.hardware.LineageHardwareManager
-import lineageos.providers.LineageSettings
+import strixos.hardware.LineageHardwareManager
+import strixos.providers.LineageSettings
 import org.json.JSONObject
 import org.lineageos.setupwizard.DISABLE_NAV_KEYS
 import org.lineageos.setupwizard.ENABLE_RECOVERY_UPDATE
@@ -60,7 +60,7 @@ object SetupWizardUtils {
     private const val GMS_PACKAGE = "com.google.android.gms"
     private const val GMS_SUW_PACKAGE = "com.google.android.setupwizard"
     private const val GMS_TV_SUW_PACKAGE = "com.google.android.tungsten.setupwraith"
-    private const val UPDATER_PACKAGE = "org.lineageos.updater"
+    private const val UPDATER_PACKAGE = "com.android.updater"
 
     private const val UPDATE_RECOVERY_EXEC = "/vendor/bin/install-recovery.sh"
     private const val CONFIG_HIDE_RECOVERY_UPDATE = "config_hideRecoveryUpdate"
