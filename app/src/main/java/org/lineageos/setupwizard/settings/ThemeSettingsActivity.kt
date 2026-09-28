@@ -14,7 +14,7 @@ import android.view.ViewOutlineProvider
 import android.widget.ImageView
 import com.google.android.material.button.MaterialButtonToggleGroup
 import com.google.android.material.materialswitch.MaterialSwitch
-import lineageos.providers.LineageSettings
+import strixos.providers.LineageSettings
 import org.lineageos.setupwizard.R
 import org.lineageos.setupwizard.base.BaseSetupWizardActivity
 import org.lineageos.setupwizard.util.updateCheckedIcons
