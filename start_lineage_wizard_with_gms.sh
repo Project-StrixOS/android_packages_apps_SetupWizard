@@ -11,7 +11,7 @@ adb shell pm enable com.android.setupwizard/org.lineageos.setupwizard.SetupWizar
 wait ${!}
 adb shell pm enable com.android.setupwizard/org.lineageos.setupwizard.system.DeviceSpecificActivity || true
 wait ${!}
-adb shell pm enable org.lineageos.setupwizard/.system.UpdateRecoveryActivity || true
+adb shell pm enable com.android.setupwizard/org.lineageos.setupwizard.system.UpdateRecoveryActivity || true
 wait ${!}
 adb shell pm enable com.google.android.setupwizard || true
 wait ${!}
